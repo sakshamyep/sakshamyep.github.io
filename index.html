@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saksham Pandey | @sakshamyep</title>
+  <meta name="description" content="Official links of Saksham Pandey (@sakshamyep). Connect with me on various platforms including Instagram, Discord, YouTube, and more.">
+  <meta name="keywords" content="Saksham Pandey, sakshamyep, Instagram, Discord, Snapchat, YouTube, GitHub, Email">
+  <meta name="author" content="Saksham Pandey">
+  <meta name="theme-color" content="#FFF">
+  <meta property="og:title" content="Saksham Pandey | @sakshamyep">
+  <meta property="og:description" content="Connect with Saksham Pandey on multiple platforms.">
+  <meta property="og:image" content="profile.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sakshamyep.github.io">
+  <link rel="icon" href="profile.jpg" type="image/jpeg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+    #preloader {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #111;
+      z-index: 9999;
+      transition: opacity 0.5s ease;
+    }
+    #preloader.fade-out {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 16rem;
+      padding: 0.75rem 1.25rem;
+      background-color: #2d2d2d;
+      border-radius: 9999px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      transition: all 0.3s;
+      text-decoration: none;
+      color: #fff;
+    }
+    .btn:hover {
+      background-color: #3c3c3c;
+    }
+    .icon-btn-row {
+      background-color: #2d2d2d;
+      padding: 1rem 1.5rem;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .icon {
+      font-size: 1.875rem;
+      transition: color 0.3s;
+    }
+    .icon:hover {
+      color: #999;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen px-4">
+  <div id="preloader">
+    <i class="fa-solid fa-spinner fa-spin text-4xl text-white"></i>
+  </div>
+  <div class="text-center">
+    <img src="profile.jpg" alt="Profile Picture" class="w-24 h-24 rounded-full mx-auto mb-4">
+    <p class="text-xl font-semibold flex items-center justify-center gap-2">
+      @sakshamyep
+      <i class="fa-solid fa-circle-check text-blue-500"></i>
+    </p>
+  </div>
+  <div class="mt-6 flex flex-col items-center space-y-4">
+    <a href="https://instagram.com/sakshamyep" class="btn">
+      <i class="fa-brands fa-instagram text-xl"></i>
+      <span class="mx-auto font-semibold">Instagram</span>
+      <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+    </a>
+    <a href="https://discord.com/users/sakshamyep" class="btn">
+      <i class="fa-brands fa-discord text-xl"></i>
+      <span class="mx-auto font-semibold">Discord</span>
+      <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+    </a>
+    <a href="https://snapchat.com/add/sakshamyep" class="btn">
+      <i class="fa-brands fa-snapchat text-xl"></i>
+      <span class="mx-auto font-semibold">Snapchat</span>
+      <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+    </a>
+    <a href="https://m.youtube.com/@sakshamyep" class="btn">
+      <i class="fa-brands fa-youtube text-xl"></i>
+      <span class="mx-auto font-semibold">YouTube</span>
+      <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+    </a>
+    <a href="https://github.com/sakshamyep" class="btn">
+      <i class="fa-brands fa-github text-xl"></i>
+      <span class="mx-auto font-semibold">GitHub</span>
+      <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+    </a>
+    <a href="mailto:sakshamyep@gmail.com" class="btn">
+      <i class="fa-solid fa-envelope text-xl"></i>
+      <span class="mx-auto font-semibold">Email</span>
+      <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+    </a>
+  </div>
+<div class="icon-btn-row">
+    <a href="https://instagram.com/sakshamyep"><i class="fa-brands fa-instagram icon"></i></a>
+    <a href="https://discord.com/users/sakshamyep"><i class="fa-brands fa-discord icon"></i></a>
+    <a href="https://snapchat.com/add/sakshamyep"><i class="fa-brands fa-snapchat icon"></i></a>
+    <a href="https://m.youtube.com/@sakshamyep"><i class="fa-brands fa-youtube icon"></i></a>
+    <a href="https://github.com/sakshamyep"><i class="fa-brands fa-github icon"></i></a>
+    <a href="mailto:sakshamyep@gmail.com"><i class="fa-solid fa-envelope icon"></i></a>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const preloader = document.getElementById("preloader");
+      setTimeout(() => {
+        preloader.classList.add("fade-out");
+        setTimeout(() => {
+          preloader.style.display = "none";
+        }, 500);
+      }, 1500);
+
+      document.querySelectorAll("a").forEach(link => {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+      });
+    });
+</script>
+</body>
+</html>
